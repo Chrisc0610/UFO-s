@@ -1,9 +1,14 @@
-.navbar {
-    background-color: blue;
-}
+
 
 .jumbotron {
-    background-color: aliceblue;
+    height: 250px;
+    background-image: url("/nasa.jpg");
+    background-size: 100% 100%;
+    text-align: center;
+    
+}
+h1 {
+    color: white
 }
 
 .article-title {
@@ -14,4 +19,13 @@
 .article-paragraph {
     text-align: left;
     
+}
+
+table {
+   color: white; }
+
+
+body {
+
+    color: #f7f7f7;
 }

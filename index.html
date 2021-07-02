@@ -11,41 +11,93 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="static/css/style.css">
-    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
-    <script src="app.js"></script>
+    <link rel="stylesheet" href="static/css/style.css" />
     <title>Document</title>
   </head>
   <body>
-    <div class="navbar row">
-      <h6 class="navbar-title">UFO Sightings</h6>
+      <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+        <a class="navbar-brand" href="index.html">UFO Sightings</a>
+      </nav>
     </div>
-    <div class="jumbotron row">
-      <div class="col-md-4"></div>
-      <h1 class="col-md-4">The Truth Is Out There</h1>
+    <div class="jumbotron">
+      <h1 class= "display-7">The Truth Is Out There</h1>
     </div>
-    <div class="article-container row">
+    
+    <div class="article-container-dark bg-dark article-container row">
       <div class="article-title col-md-4">
-        UFO Sightings:Fact or Fancy?<br />
-        Ufologist Weigh In
+
+        <h3>UFO Sightings: Fact or Fancy? <small> Ufologists Weigh In</small></h3>
+
       </div>
-      <div class="article-paragraph col-md-8">
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
-      </div>
+      <div class="article-paragraph-dark bg-dark article-paragraph col-md-8">
+
+        <p>
+            Are we alone in the universe? For millennia, humans have turned to the
+            sky to answer this question. Now, thanks to research generously funded
+            by W. Avy, a UFO-enthusiast and amateur ufologist, we can supplement our
+            sky-searching with data analysis. 
+          </p>
+          <p>
+            "The release of this analysis is well-timed: It coincides with the celebration of World UFO Day, which is
+            a moment for ufologists around the world to connect, relax, and sample a
+            range of UFO-themed snacks," said Dr. Ursula F. Olivier, the world's
+            preeminent expert on circular sightings. "Citizen-scientists can be
+            especially helpful in both cataloguing sightings—which is hugely helpful
+            for us in our search for aliens—and in helping us celebrate the work
+            that has already been done, such as this data visualization project,
+            which will help us raise awareness of the ubiquity of sightings!" 
+          </p>
+          <p>
+            Not everyone is ready to celebrate, however. Local CEO and vocal anti-alien
+            activist V. Isualize reached out to our reporters to go on record as
+            firmly opposed to any attempts to provide access to this data. "If there
+            are aliens, they certainly would like to be left alone," she stated,
+            before directing us to the Leave Aliens Alone (LAA) community engagement
+            initiative she founded and funds. 
+          </p>
+            So what do YOU think? Are we alone in
+            the universe? Are aliens trying to contact us, or do they want to be
+            left alone? Dig through the data yourself, and let us know what you see.
+        </p>
+
     </div>
-    <div class="filters-container row">
-      <div class="filter-table col-md-3">Filters</div>
-      <div class="table-sightings col-md-9">Table of Sighting Data
-        <tbody></tbody>
-      </div>
-    </div>
-  </body>
+        <div class="filters-container row">
+            <div class="filter-table col-md-4">
+                <form>
+                    <p>Filter Search</p>
+                <ul class="list-group">
+                  <li class="list-group-item-dark bg-dark text-light list-group-item">
+                      <label for="date">Enter Date</label>
+                      <input type="text" placeholder="1/10/2010"id="datetime"/>
+                  </li>
+                  <li class="list-group-item-dark bg-dark text-light list-group-item">
+                      <button id="filter-btn" type="button" class="btn btn-dark">Filter Table</button>
+                  </li>
+              </ul>
+            </form>
+            </div>
+            <div class="table-sightings col-md-8">
+                    <table class="table table-dark bg-dark text-light table-striped">
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>City</th>
+                            <th>State</th>
+                            <th>Country</th>
+                            <th>Shape</th>
+                            <th>Duration</th>
+                            <th>Comments</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                    </table>
+                </div>
+            </div>
+          </div>
+        </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
+  <script src="data.js"></script>
+  <script src="app.js"></script>  
+</body>
 </html>
+
