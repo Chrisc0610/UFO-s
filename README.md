@@ -9,16 +9,17 @@ can now filter by city, state, county and shape
 - Please refer below on how to navigate thorugh the site.
 	* As soon as the html page is loaded the user with be able to scroll through the table of all UFO reports.
 		- The page has been updated so that the table will update on the keydown stroke
-			* so as soon as the user finishes typing the search the table will auto populate. (see image below)
-			*
-		- If the filter word or date does not exist or is in the incorrect filter box the table will not populate. (see image below)
-			* image
-		- The user can also do multiple filters for example filtering by "state,shape,date" (see image below)
-			* image
+			* so as soon as the user finishes typing the search the table will auto populate.
+			* ![Filtered1.PNG](images/Filtered1.PNG)
+		- If the filter word or date does not exist or is incorrectthe table will not populate.
+			* ![Filtered2.PNG](images/Filtered2.PNG)
+		- The user can also do multiple filters for example filtering by "state,shape,date"
+			* ![Filtered3.PNG](images/Filtered3.PNG)
 			* if one of the filters does not exist the table will end up blank
 		- Finally there are two ways to reuturn to the unfiltered list. 
 			* By clicking the " UFO Sightings" heading on the top left corner of the page
 			* By clicking on the "Clear Filter" button to the left of the table. 
+			* * ![Filtered4.PNG](images/Filtered4.PNG)
 		
 	
 ## Summary
