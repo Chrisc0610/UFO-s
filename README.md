@@ -6,7 +6,7 @@ by allowing users to filter for multiple criteria at the same time. In addition 
 can now filter by city, state, county and shape
 
 ## Results
-Please refer below on how to navigate thorugh the site.
+- Please refer below on how to navigate thorugh the site.
 	* As soon as the html page is loaded the user with be able to scroll through the table of all UFO reports.
 		- The page has been updated so that the table will update on the keydown stroke
 			* so as soon as the user finishes typing the search the table will auto populate. (see image below)
